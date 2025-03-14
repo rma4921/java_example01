@@ -13,4 +13,8 @@ public class Acount {
         }
         balance -= money;
     }
+    @Override
+    public String toString(){
+        return String.valueOf(balance);
+    }
 }
